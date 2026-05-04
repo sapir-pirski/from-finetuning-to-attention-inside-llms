@@ -117,17 +117,6 @@ set +a
 jupyter notebook
 ```
 
-## Colab Notes
-
-For the full target-model run, use a GPU runtime.
-The saved successful run used an L4 GPU.
-
-The notebook removes an incompatible preinstalled `torchao` package when needed,
-then installs only the packages required for the assignment.
-
-Keep the Hugging Face token outside version control.
-Use `.env` locally or a Colab secret/environment variable named `HF_TOKEN`.
-
 ## Reproducibility Notes
 
 - The 20-example test set is held out from training and validation.

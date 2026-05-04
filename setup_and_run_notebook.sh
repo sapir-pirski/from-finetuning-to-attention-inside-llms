@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-NOTEBOOK_PATH="${NOTEBOOK_PATH:-$ROOT_DIR/From_Finetuning_to_Attention_Inside_LLMs.ipynb}"
+NOTEBOOK_PATH="${NOTEBOOK_PATH:-$ROOT_DIR/notebooks/From_Finetuning_to_Attention_Inside_LLMs.ipynb}"
 VENV_DIR="${VENV_DIR:-$ROOT_DIR/.venv}"
 KERNEL_NAME="${KERNEL_NAME:-from-finetuning-to-attention}"
 KERNEL_DISPLAY_NAME="${KERNEL_DISPLAY_NAME:-Python (.venv - From Finetuning to Attention)}"

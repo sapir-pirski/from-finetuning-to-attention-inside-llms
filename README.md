@@ -18,7 +18,7 @@ It does not write result files or checkpoints during execution.
 
 | Area | Details |
 |---|---|
-| Notebook | `From_Finetuning_to_Attention_Inside_LLMs.ipynb` |
+| Notebook | `notebooks/From_Finetuning_to_Attention_Inside_LLMs.ipynb` |
 | Models | `HuggingFaceTB/SmolLM2-360M-Instruct`, `google/flan-t5-small` |
 | Dataset source | `databricks/databricks-dolly-15k` |
 | Training method | 4-bit QLoRA with LoRA adapters |
@@ -74,7 +74,7 @@ The README includes selected visuals extracted from the executed notebook output
 
 | Path | Purpose |
 |---|---|
-| `From_Finetuning_to_Attention_Inside_LLMs.ipynb` | Fully executed assignment notebook |
+| `notebooks/From_Finetuning_to_Attention_Inside_LLMs.ipynb` | Fully executed assignment notebook |
 | `setup_and_run_notebook.sh` | Creates the environment and executes the notebook |
 | `assets/` | README images exported from notebook outputs |
 | `.env.template` | Template for local Hugging Face token configuration |

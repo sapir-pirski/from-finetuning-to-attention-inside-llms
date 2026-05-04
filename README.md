@@ -82,13 +82,14 @@ The README includes selected visuals extracted from the executed notebook output
 
 ## Quick Start
 
-Create a local environment file:
+Copy the current environment template and rename the copy to `.env`:
 
 ```bash
 cp .env.template .env
 ```
 
-Edit `.env` and set your Hugging Face token:
+Open `.env` and fill it with the relevant values for your run.
+At minimum, replace the placeholder Hugging Face token:
 
 ```bash
 HF_TOKEN=YOUR_HUGGING_FACE_TOKEN

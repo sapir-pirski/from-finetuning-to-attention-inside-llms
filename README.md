@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-10B981)
 ![Last run](https://img.shields.io/badge/Last%20run-Colab%20L4%20GPU-2563EB)
 
-Assignment 3 notebook for studying two core LLM mechanics:
+Reproducible notebook project for studying two core LLM mechanics:
 
 - QLoRA fine-tuning for level-adaptive question answering.
 - Scaled dot-product attention and multi-head attention visualization.
@@ -74,7 +74,7 @@ The README includes selected visuals extracted from the executed notebook output
 
 | Path | Purpose |
 |---|---|
-| `notebooks/From_Finetuning_to_Attention_Inside_LLMs.ipynb` | Fully executed assignment notebook |
+| `notebooks/From_Finetuning_to_Attention_Inside_LLMs.ipynb` | Fully executed project notebook |
 | `setup_and_run_notebook.sh` | Creates the environment and executes the notebook |
 | `assets/` | README images exported from notebook outputs |
 | `.env.template` | Template for local Hugging Face token configuration |
